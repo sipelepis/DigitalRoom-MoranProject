@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <title>California</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar">
+        <svg width="181" height="22" viewBox="0 0 181 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.2593 21.9401C9.65508 21.9401 8.16968 21.6707 6.80312 21.132C5.43655 20.5732 4.23833 19.805 3.20846 18.8272C2.19839 17.8295 1.40618 16.6621 0.831822 15.3252C0.277274 13.9882 0 12.5415 0 10.985C0 9.40862 0.277274 7.96191 0.831822 6.6449C1.40618 5.30794 2.19839 4.15057 3.20846 3.17279C4.23833 2.19501 5.42665 1.42676 6.77341 0.868028C8.13997 0.309298 9.61547 0.0299341 11.1999 0.0299341C12.8635 0.0299341 14.3588 0.299322 15.6858 0.838097C17.0127 1.35692 18.1813 2.08526 19.1913 3.02313L15.6264 6.61497C15.1312 6.05624 14.5173 5.61723 13.7845 5.29796C13.0517 4.97868 12.1902 4.81905 11.1999 4.81905C10.3483 4.81905 9.56595 4.95873 8.85296 5.2381C8.15978 5.51746 7.55572 5.93651 7.04078 6.49524C6.52584 7.03401 6.11983 7.68254 5.82275 8.44082C5.54548 9.19909 5.40684 10.0472 5.40684 10.985C5.40684 11.9229 5.54548 12.771 5.82275 13.5293C6.11983 14.2875 6.52584 14.946 7.04078 15.5048C7.55572 16.0435 8.15978 16.4626 8.85296 16.7619C9.56595 17.0413 10.3483 17.181 11.1999 17.181C12.1902 17.181 13.0616 17.0313 13.8142 16.732C14.5668 16.4127 15.2105 15.9637 15.7452 15.385L19.3102 18.9769C18.2803 19.9147 17.1118 20.6431 15.8046 21.1619C14.5173 21.6807 13.0022 21.9401 11.2593 21.9401Z" fill="black"/>
+          <path d="M19.542 21.6109L27.7117 0.389116H32.8512L40.9317 21.6109H35.3763L29.2862 3.77143H31.2172L24.9786 21.6109H19.542Z" fill="black"/>
+          <path d="M42.9036 21.6109V0.389116H48.2213V21.6109H42.9036ZM47.1221 21.6109V17.0014H57.2822V21.6109H47.1221Z" fill="black"/>
+          <path d="M59.7594 21.6109V0.389116H65.0771V21.6109H59.7594Z" fill="black"/>
+          <path d="M68.811 21.6109V0.389116H74.1287V21.6109H68.811ZM73.0295 13.6789V9.15919H83.457V13.6789H73.0295ZM73.0295 4.90884V0.389116H83.9323V4.90884H73.0295Z" fill="black"/>
+          <path d="M96.7283 22C95.1043 22 93.609 21.7206 92.2424 21.1619C90.8759 20.6032 89.6776 19.8249 88.6478 18.8272C87.6377 17.8295 86.8455 16.6621 86.2711 15.3252C85.6968 13.9683 85.4096 12.5116 85.4096 10.9551C85.4096 9.39864 85.6869 7.96191 86.2414 6.6449C86.8158 5.30794 87.608 4.14059 88.6181 3.14286C89.6281 2.14512 90.8165 1.37687 92.183 0.838097C93.5496 0.279366 95.0449 0 96.6689 0C98.293 0 99.7883 0.279366 101.155 0.838097C102.521 1.37687 103.71 2.14512 104.72 3.14286C105.73 4.14059 106.512 5.30794 107.067 6.6449C107.641 7.98186 107.928 9.42857 107.928 10.985C107.928 12.5415 107.641 13.9882 107.067 15.3252C106.512 16.6621 105.73 17.8395 104.72 18.8571C103.71 19.8549 102.521 20.6331 101.155 21.1918C99.8081 21.7306 98.3326 22 96.7283 22ZM96.6689 17.2109C97.8572 17.2109 98.8871 16.9515 99.7586 16.4327C100.63 15.9138 101.303 15.1855 101.779 14.2476C102.254 13.3098 102.492 12.2122 102.492 10.9551C102.492 10.0372 102.353 9.19909 102.076 8.44082C101.818 7.68254 101.432 7.03401 100.917 6.49524C100.402 5.93651 99.7882 5.50748 99.0753 5.20816C98.3623 4.90884 97.5602 4.75919 96.6689 4.75919C95.4806 4.75919 94.4507 5.0186 93.5793 5.53742C92.7079 6.03628 92.0345 6.75465 91.5592 7.69252C91.0838 8.63039 90.8462 9.71792 90.8462 10.9551C90.8462 11.9129 90.9749 12.781 91.2324 13.5592C91.5096 14.3175 91.9057 14.976 92.4207 15.5347C92.9356 16.0735 93.5496 16.4925 94.2626 16.7918C94.9756 17.0712 95.7777 17.2109 96.6689 17.2109Z" fill="black"/>
+          <path d="M114.806 13.0204V9.18912H118.817C119.688 9.18912 120.352 8.97959 120.807 8.56055C121.283 8.12154 121.52 7.53288 121.52 6.79456C121.52 6.07619 121.283 5.49751 120.807 5.0585C120.352 4.59955 119.688 4.37007 118.817 4.37007H114.806V0.389116H119.56C120.986 0.389116 122.233 0.658504 123.303 1.19728C124.392 1.73606 125.244 2.47438 125.858 3.41225C126.472 4.35011 126.779 5.44762 126.779 6.70476C126.779 7.9619 126.462 9.06939 125.828 10.0272C125.214 10.9651 124.352 11.7034 123.243 12.2422C122.134 12.761 120.837 13.0204 119.352 13.0204H114.806ZM110.588 21.6109V0.389116H115.906V21.6109H110.588ZM121.996 21.6109L115.876 12.5116L120.659 11.3442L128.145 21.6109H121.996Z" fill="black"/>
+          <path d="M129.881 21.6109V0.389116H133.594L135.198 4.72925V21.6109H129.881ZM144.408 21.6109L132.109 5.86667L133.594 0.389116L145.923 16.1333L144.408 21.6109ZM144.408 21.6109L143.041 17.151V0.389116H148.359V21.6109H144.408Z" fill="black"/>
+          <path d="M152.103 21.6109V0.389116H157.421V21.6109H152.103Z" fill="black"/>
+          <path d="M159.61 21.6109L167.78 0.389116H172.919L181 21.6109H175.445L169.354 3.77143H171.286L165.047 21.6109H159.61Z" fill="black"/>
+        </svg>
+        <ul class="nav-items">
+          <li><a href="#">ALL PRODUCTS</a></li>
+          <li class="dropdown">
+            <a href="#">SOLUTIONS</a>
+            <div class="dropdown-content">
+              <div class="dropdown-main">
+                <div class="left-panel">
+                  <div class="solutions-button-group">
+                    <div class="left-button-group">
+                      <div class="component-container">
+                        <div class="icon-container">
+                          <svg class="icon" width="21" height="30" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.2857 1H3.71429C2.21523 1 1 2.21523 1 3.71429V25.4286C1 26.9276 2.21523 28.1429 3.71429 28.1429H17.2857C18.7848 28.1429 20 26.9276 20 25.4286V3.71429C20 2.21523 18.7848 1 17.2857 1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.5 22.7144H10.5136" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </div>
+                        <div class="text-container">
+                          <span class="text-lg">Phones</span>
+                          <span class="text-sm">Your Day To Day Life</span>
+                        </div>
+                      </div>
+                      <div class="component-container">
+                        <div class="icon-container">
+                          <svg class="icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 23.3999H15.014" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="1" y="1" width="28" height="28" rx="2" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                            
+                        </div>
+                        <div class="text-container">
+                          <span class="text-lg">Tablets</span>
+                          <span class="text-sm">Empower Your Day</span>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="right-button-group">
+                      <div class="component-container">
+                        <div class="icon-container">
+                          <svg class="icon" width="23" height="33" viewBox="0 0 23 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.42847 1H17.238" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.42847 32H17.238" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="1" y="5.42847" width="20.6667" height="22.1429" rx="3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </div>
+                        <div class="text-container">
+                          <span class="text-lg">Watch</span>
+                          <span class="text-sm">Your Day To Day Life</span>
+                        </div>
+                      </div>
+                      <div class="component-container">
+                        <div class="icon-container">
+                          <svg class="icon" width="36" height="23" viewBox="0 0 36 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27.8823 1H8.11756C6.75309 1 5.64697 2.10612 5.64697 3.47059V15.8235C5.64697 17.188 6.75309 18.2941 8.11756 18.2941H27.8823C29.2467 18.2941 30.3529 17.188 30.3529 15.8235V3.47059C30.3529 2.10612 29.2467 1 27.8823 1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1.94116 22H34.0588" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                            
+                        </div>
+                        <div class="text-container">
+                          <span class="text-lg">Laptops</span>
+                          <span class="text-sm">True Laptop Solution</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="solutions-description">
+                    <p>Shop headsets and headphones for desktops, laptops, mobile devices, business, education,
+                      working from home, and video calls.</p>
+                  </div>
+                </div>
+                <div class="right-panel">
+                  <div class="solutions-main">
+                    <div class="image-container">
+                      <img class="image" src="./assets/images/623376b57925d763656caec2_Blog Image.png" alt="" />
+                    </div>
+                    <div class="article">
+                      <p class="article-category">EDITORIAL</p>
+                      <h3 class="article-title">We Make It Easy To Find The Great Design Talent, Easier ...</h3>
+                      <p class="article-date">JUNE 15, 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SUPPORT</a></li>
+        </ul>
+        <div class="icons">
+          <a href="#">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M20.9999 20.9999L16.6499 16.6499" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <div class="menu-hamburger">
+            <a href="#">
+              <svg class="icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+                <path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="dropdown-content-small">
+          <div class="dropdown-list-container">
+            <p class="dropdown-list-title">All Products</p>
+            <div class="accordion">
+              <div class="dropdown-list-title accordion-button">Solutions</div>
+              <div class="accordion-content">
+                <div class="component-container">
+                  <div class="icon-container">
+                    <svg class="icon" width="21" height="30" viewBox="0 0 21 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.2857 1H3.71429C2.21523 1 1 2.21523 1 3.71429V25.4286C1 26.9276 2.21523 28.1429 3.71429 28.1429H17.2857C18.7848 28.1429 20 26.9276 20 25.4286V3.71429C20 2.21523 18.7848 1 17.2857 1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M10.5 22.7144H10.5136" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="text-container">
+                    <span class="text-lg">Phones</span>
+                    <span class="text-sm">Your Day To Day Life</span>
+                  </div>
+                </div>
+                <div class="component-container">
+                  <div class="icon-container">
+                    <svg class="icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15 23.3999H15.014" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <rect x="1" y="1" width="28" height="28" rx="2" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                      
+                  </div>
+                  <div class="text-container">
+                    <span class="text-lg">Tablets</span>
+                    <span class="text-sm">Empower Your Day</span>
+                  </div>
+                </div>
+                <div class="component-container">
+                  <div class="icon-container">
+                    <svg class="icon" width="23" height="33" viewBox="0 0 23 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M5.42847 1H17.238" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M5.42847 32H17.238" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <rect x="1" y="5.42847" width="20.6667" height="22.1429" rx="3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="text-container">
+                    <span class="text-lg">Watch</span>
+                    <span class="text-sm">Your Day To Day Life</span>
+                  </div>
+                </div>
+                <div class="component-container">
+                  <div class="icon-container">
+                    <svg class="icon" width="36" height="23" viewBox="0 0 36 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M27.8823 1H8.11756C6.75309 1 5.64697 2.10612 5.64697 3.47059V15.8235C5.64697 17.188 6.75309 18.2941 8.11756 18.2941H27.8823C29.2467 18.2941 30.3529 17.188 30.3529 15.8235V3.47059C30.3529 2.10612 29.2467 1 27.8823 1Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M1.94116 22H34.0588" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                      
+                  </div>
+                  <div class="text-container">
+                    <span class="text-lg">Laptops</span>
+                    <span class="text-sm">True Laptop Solution</span>
+                  </div>
+                </div>
+                <p>Shop headsets and headphones for desktops,
+                  laptops, mobile devices, business, education,
+                  working from home, and video calls.</p>
+              </div>
+            </div>
+            <p class="dropdown-list-title">About</p>
+            <p class="dropdown-list-title">Support</p>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main class="main">
+      <!-- Carousel Container -->
+      <div class="carousel-container">
+        <div class="carousel">
+          <!-- Images -->
+          <div class="carousel-image-label-container">
+            <div class="carousel-label">
+              <div class="labels">
+                <h1 class="carousel-labels"></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est
+                  dui, aliquam, tempor. Faucibus morbi turpis.</p>
+                <button class="btn"><p>Explore</p></button>
+              </div>
+            </div>
+            <img class="carousel-image" src="./assets/images/first.png" alt="" />
+          </div>
+          <!-- Buttons -->
+          <div class="carousel-button-group">
+            <a id="left" href="#" class="carousel-button">
+              <svg class="carousel-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.5 7.5L8.5 12L15.5 16.5V7.5Z"
+                  stroke="#010201"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <div class="carousel-middle-button-group">
+              <a id="carousel-1" href="#" class="carousel-middle-button active"></a>
+              <a id="carousel-2" href="#" class="carousel-middle-button"></a>
+              <a id="carousel-3" href="#" class="carousel-middle-button"></a>
+            </div>
+            <a id="right" href="#" class="carousel-button">
+              <svg class="carousel-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M8.5 7.5L15.5 12L8.5 16.5V7.5Z"
+                    stroke="#010201"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Shop Container -->
+      <div class="shop-container">
+        <!-- Label Container -->
+        <div class="shop-label-container">
+          <h1>Shop our latest offers and categories</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor.
+            Faucibus morbi turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <!-- Card Group Container -->
+        <div class="card-group-container">
+          <!-- Left -->
+          <div class="left-card-group-container">
+            <!-- Card -->
+            <div class="card">
+              <!-- Card Image Container -->
+              <div class="card-image-container">
+                <img class="card-image" src="./assets/images/6200e438452a412c4c476474_Laptop Image.png" alt="" />
+                <div class="card-label">
+                  <p class="card-label-category">Laptops</p>
+                  <p class="card-label-title">True Laptop Solution</p>
+                </div>
+              </div>
+            </div>
+            <div class="card card2">
+              <!-- Card Image Container -->
+              <div class="card-image-container">
+                <img class="card-image2" src="./assets/images/6200e52185c67c65e123416d_Watch Image.png" alt="" />
+                <div class="card-label">
+                  <p class="card-label-category">Watch</p>
+                  <p class="card-label-title">Not just stylisht</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Middle -->
+          <div class="middle-right-card-group-container">
+            <!-- Card -->
+            <div class="card">
+              <!-- Card Image Container -->
+              <div class="card-image-container">
+                <img class="card-image" src="./assets/images/6200e42ace573a4816993874_Phone Image.png" alt="" />
+                <div class="card-label">
+                  <p class="card-label-category">Phone</p>
+                  <p class="card-label-title">Your day to day life</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right -->
+          <div class="middle-right-card-group-container">
+            <!-- Card -->
+            <div class="card card2">
+              <!-- Card Image Container -->
+              <div class="card-image-container">
+                <img class="card-image" src="./assets/images/6200e41c3e9f3e84eb0c5684_Tablet image.png" alt="" />
+                <div class="card-label">
+                  <p class="card-label-category">Tablet</p>
+                  <p class="card-label-title">Empower Your Work</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Right -->
+        </div>
+      </div>
+      <!-- Most Selled Container -->
+      <div class="most-selled-container">
+        <div class="most-selled-label-container">
+          <h1>Save our most selled items.</h1>
+          <p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+        </div>
+        <!-- Card Group Container -->
+        <div class="card-group-container">
+          <!-- Card -->
+          <div class="card">
+            <!-- Card Image Container -->
+            <div class="card-image-container">
+              <img src="./assets/images/62028b0600efe2383e89ce48_Mac Book 4.png" alt="" class="card-image">
+            </div>
+            <div class="card-label-container">
+              <p class="card-label-title">MacBook Pro 13</p>
+              <p class="card-label-description">Neque porro quisquam est qui dolorem ipsum
+                quia dolor sit amet</p>
+              <p class="card-label-price">$ 1,200.00 USD</p>
+
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="card">
+            <!-- Card Image Container -->
+            <div class="card-image-container">
+              <img src="./assets/images/62382e4ee6bfcb408440a226_Smart Galaxy Black Watch.png" alt="" class="card-image">
+            </div>
+            <div class="card-label-container">
+              <p class="card-label-title">Smart Galaxy Watch 3</p>
+              <p class="card-label-description">Neque porro quisquam est qui dolorem ipsum
+                quia dolor sit amet, consectetur, adipisci
+                velit ...</p>
+              <p class="card-label-price">$ 199.00 USD</p>
+
+            </div>
+          </div>
+           <!-- Card -->
+           <div class="card">
+            <!-- Card Image Container -->
+            <div class="card-image-container">
+              <img src="./assets/images/62028b1444136bb9173e9b9d_Mac Book 3.png" alt="" class="card-image">
+            </div>
+            <div class="card-label-container">
+              <p class="card-label-title">M1 AirMacBook</p>
+              <p class="card-label-description">Neque porro quisquam est qui dolorem ipsum
+                quia dolor sit amet, consectetur, adipisci
+                velit...</p>
+              <p class="card-label-price">$ 1,009.00 USD</p>
+            </div>
+          </div>
+           <!-- Card -->
+           <div class="card">
+            <!-- Card Image Container -->
+            <div class="card-image-container">
+              <img src="./assets/images/61f14c7ad4a814ec84c8e432_Tablet Image 4-min.png" alt="" class="card-image card-ipad">
+            </div>
+            <div class="card-label-container">
+              <p class="card-label-title">iPad</p>
+              <p class="card-label-description">Neque porro quisquam est qui dolorem ipsum
+                quia dolor sit amet, consectetur, adipisci
+                velit ...</p>
+              <p class="card-label-price">$ 610.00 USD</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="best-around-body">
+      <!-- Best Around -->
+        <div class="best-around-container">
+          <!-- Best Around Label Container -->
+          <div class="best-around-label-container">
+            <h1>See the best around here</h1>
+            <p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+          </div>
+          <!-- Card Group Container -->
+          <div class="card-group-container">
+            <!-- Card -->
+            <div class="card">
+              <!-- Card Label Container -->
+              <div class="card-label-container">
+                <p class="card-label-description">
+                  Smart Light Bulb Pack
+                </p>
+                <p class="card-label-titled">
+                  Latest and Greatest
+                </p>
+                <button class="btn"><p>Explore</p></button>
+  
+              </div>
+              <div class="card-image-container">
+                <img src="./assets/images/620669c2bfc23d4e38a7f1ba_Latest.png" alt="" class="card-image">
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <!-- Card Label Container -->
+              <div class="card-label-container">
+                <p class="card-label-description">
+                  Smart Light Bulb Pack
+                </p>
+                <p class="card-label-titled">
+                  Latest and Greatest
+                </p>
+                <button class="btn"><p>Explore</p></button>
+  
+              </div>
+              <div class="card-image-container">
+                <img src="./assets/images/6233782a29ea671d428fd9ed_Best Seller.png" alt="" class="card-image">
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="card">
+              <!-- Card Label Container -->
+              <div class="card-label-container">
+                <p class="card-label-description">
+                  Smart Light Bulb Pack
+                </p>
+                <p class="card-label-titled">
+                  Latest and Greatest
+                </p>
+                <button class="btn"><p>Explore</p></button>
+  
+              </div>
+              <div class="card-image-container">
+                <img src="./assets/images/6233794df39c082c8b6cbee0_Every Product.png" alt="" class="card-image ">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ideas-container">
+        <!-- Article Labels -->
+        <div class="best-around-label-container">
+          <h1>Ideas have a place here</h1>
+          <p>Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
+        </div>
+        <!-- Article Container -->
+        <div class="article-container">
+          <div class="article-image-container">
+            <img src="./assets/images/620d08005ae7bd10cda7ad66_Blog Image.png" alt="" class="article-image">
+          </div>
+          <div class="article-titles-container">
+            <p id="p-1" class="article-title">We Make It Easy To Find The Great Design Talent, Easier...</p>
+            <p class="p-span" >Learn More</p>
+            <p id="p-2" class="article-title">Road Design Handbook For The International Road...</p>
+            <p class="p-span" id="p-2">Learn More</p>
+            <p id="p-3" class="article-title">The People Creative About Secrets Kept Best</p>
+            <p class="p-span" id="p-3">Learn More</p>
+            <p id="p-4" class="article-title">We Make It Easy To Find The Great Design Talent, Easier...</p>
+            <p class="p-span" id="p-4">Learn More</p>
+          </div>
+        </div>
+        <!-- Small Article -->
+        <div class="article-container-smol">
+          <p class="article-title">We Make It Easy To Find The Great Design Talent, Easier...</p>
+          <div class="article-image-container-smol">
+            <img class src='./assets/images/620d08005ae7bd10cda7ad66_Blog Image.png' alt="" class="card-image-smol">
+          </div>
+        </div>
+        <div class="article-container-smol">
+          <p class="article-title">Road Design Handbook For The International Road...</p>
+          <div class="article-image-container-smol">
+            <img class src='./assets/images/61fa50143a337b6520618374_Blog Image 9.png' alt="" class="card-image-smol">
+          </div>
+        </div>
+        <div class="article-container-smol">
+          <p class="article-title">The People Creative About Secrets Kept Best</p>
+          <div class="article-image-container-smol">
+            <img class src='./assets/images/61fa503d384336649c7557ac_Blog Image 6.png' alt="" class="card-image-smol">
+          </div>
+        </div>
+        <div class="article-container-smol">
+          <p class="article-title">We Make It Easy To Find The Great Design Talent, Easier...</p>
+          <div class="article-image-container-smol">
+            <img class src='./assets/images/623376b57925d763656caec2_Blog Image.png' alt="" class="card-image-smol">
+          </div>
+        </div>
+        <div class="see-all-container">
+          <p href="" class="see-all-title">See All</p>
+        </div>
+      </div>
+      <!-- Footer Top -->
+      <div class="footer-top-body">
+        <div class="footer-container">
+          <h1>Looking for Anything Else?</h1>
+          <div  class="search-input">
+            <input type="search" name="s" value="" placeholder="&#128270;">
+          </div>
+          <div class="keyword-container">
+            <button class="btn"><p>iPhone</p></button>
+            <button class="btn"><p>Charger</p></button>
+            <button class="btn"><p>Gift</p></button>
+            <button class="btn"><p>Google Pixel 3</p></button>
+            <button class="btn"><p>Keyboard</p></button>
+            <button class="btn"><p>13 Pro Max</p></button>
+            <button class="btn"><p>iPhone 12</p></button>
+            <button class="btn"><p>Laptop</p></button>
+            <button class="btn"><p>Mobile</p></button>
+          </div>
+          <div class="email-container">
+            <h1>Never miss a thing</h1>
+            <p>Sign up for texts to be notified about our best offers on the perfect gifts.</p>
+            <img src="./assets/images/6204dfa9b26f4a3e3bdf8a6a_Sign Up Image (2).png" alt="" class="email-image">
+            <div class="email-input-container">
+              <input type="email" name="email" value="" placeholder="Email Address">
+              <button class="btn"><p>Sign Up</p></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom -->
+      <div class="footer-bottom-body">
+        <div class="footer-logo">
+          <svg width="181" height="22" viewBox="0 0 181 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.2593 21.9401C9.65508 21.9401 8.16968 21.6707 6.80312 21.132C5.43655 20.5732 4.23833 19.805 3.20846 18.8272C2.19839 17.8295 1.40618 16.6621 0.831822 15.3252C0.277274 13.9882 0 12.5415 0 10.985C0 9.40862 0.277274 7.96191 0.831822 6.6449C1.40618 5.30794 2.19839 4.15057 3.20846 3.17279C4.23833 2.19501 5.42665 1.42676 6.77341 0.868028C8.13997 0.309298 9.61547 0.0299341 11.1999 0.0299341C12.8635 0.0299341 14.3588 0.299322 15.6858 0.838097C17.0127 1.35692 18.1813 2.08526 19.1913 3.02313L15.6264 6.61497C15.1312 6.05624 14.5173 5.61723 13.7845 5.29796C13.0517 4.97868 12.1902 4.81905 11.1999 4.81905C10.3483 4.81905 9.56595 4.95873 8.85296 5.2381C8.15978 5.51746 7.55572 5.93651 7.04078 6.49524C6.52584 7.03401 6.11983 7.68254 5.82275 8.44082C5.54548 9.19909 5.40684 10.0472 5.40684 10.985C5.40684 11.9229 5.54548 12.771 5.82275 13.5293C6.11983 14.2875 6.52584 14.946 7.04078 15.5048C7.55572 16.0435 8.15978 16.4626 8.85296 16.7619C9.56595 17.0413 10.3483 17.181 11.1999 17.181C12.1902 17.181 13.0616 17.0313 13.8142 16.732C14.5668 16.4127 15.2105 15.9637 15.7452 15.385L19.3102 18.9769C18.2803 19.9147 17.1118 20.6431 15.8046 21.1619C14.5173 21.6807 13.0022 21.9401 11.2593 21.9401Z" fill="black"/>
+            <path d="M19.542 21.6109L27.7117 0.389116H32.8512L40.9317 21.6109H35.3763L29.2862 3.77143H31.2172L24.9786 21.6109H19.542Z" fill="black"/>
+            <path d="M42.9036 21.6109V0.389116H48.2213V21.6109H42.9036ZM47.1221 21.6109V17.0014H57.2822V21.6109H47.1221Z" fill="black"/>
+            <path d="M59.7594 21.6109V0.389116H65.0771V21.6109H59.7594Z" fill="black"/>
+            <path d="M68.811 21.6109V0.389116H74.1287V21.6109H68.811ZM73.0295 13.6789V9.15919H83.457V13.6789H73.0295ZM73.0295 4.90884V0.389116H83.9323V4.90884H73.0295Z" fill="black"/>
+            <path d="M96.7283 22C95.1043 22 93.609 21.7206 92.2424 21.1619C90.8759 20.6032 89.6776 19.8249 88.6478 18.8272C87.6377 17.8295 86.8455 16.6621 86.2711 15.3252C85.6968 13.9683 85.4096 12.5116 85.4096 10.9551C85.4096 9.39864 85.6869 7.96191 86.2414 6.6449C86.8158 5.30794 87.608 4.14059 88.6181 3.14286C89.6281 2.14512 90.8165 1.37687 92.183 0.838097C93.5496 0.279366 95.0449 0 96.6689 0C98.293 0 99.7883 0.279366 101.155 0.838097C102.521 1.37687 103.71 2.14512 104.72 3.14286C105.73 4.14059 106.512 5.30794 107.067 6.6449C107.641 7.98186 107.928 9.42857 107.928 10.985C107.928 12.5415 107.641 13.9882 107.067 15.3252C106.512 16.6621 105.73 17.8395 104.72 18.8571C103.71 19.8549 102.521 20.6331 101.155 21.1918C99.8081 21.7306 98.3326 22 96.7283 22ZM96.6689 17.2109C97.8572 17.2109 98.8871 16.9515 99.7586 16.4327C100.63 15.9138 101.303 15.1855 101.779 14.2476C102.254 13.3098 102.492 12.2122 102.492 10.9551C102.492 10.0372 102.353 9.19909 102.076 8.44082C101.818 7.68254 101.432 7.03401 100.917 6.49524C100.402 5.93651 99.7882 5.50748 99.0753 5.20816C98.3623 4.90884 97.5602 4.75919 96.6689 4.75919C95.4806 4.75919 94.4507 5.0186 93.5793 5.53742C92.7079 6.03628 92.0345 6.75465 91.5592 7.69252C91.0838 8.63039 90.8462 9.71792 90.8462 10.9551C90.8462 11.9129 90.9749 12.781 91.2324 13.5592C91.5096 14.3175 91.9057 14.976 92.4207 15.5347C92.9356 16.0735 93.5496 16.4925 94.2626 16.7918C94.9756 17.0712 95.7777 17.2109 96.6689 17.2109Z" fill="black"/>
+            <path d="M114.806 13.0204V9.18912H118.817C119.688 9.18912 120.352 8.97959 120.807 8.56055C121.283 8.12154 121.52 7.53288 121.52 6.79456C121.52 6.07619 121.283 5.49751 120.807 5.0585C120.352 4.59955 119.688 4.37007 118.817 4.37007H114.806V0.389116H119.56C120.986 0.389116 122.233 0.658504 123.303 1.19728C124.392 1.73606 125.244 2.47438 125.858 3.41225C126.472 4.35011 126.779 5.44762 126.779 6.70476C126.779 7.9619 126.462 9.06939 125.828 10.0272C125.214 10.9651 124.352 11.7034 123.243 12.2422C122.134 12.761 120.837 13.0204 119.352 13.0204H114.806ZM110.588 21.6109V0.389116H115.906V21.6109H110.588ZM121.996 21.6109L115.876 12.5116L120.659 11.3442L128.145 21.6109H121.996Z" fill="black"/>
+            <path d="M129.881 21.6109V0.389116H133.594L135.198 4.72925V21.6109H129.881ZM144.408 21.6109L132.109 5.86667L133.594 0.389116L145.923 16.1333L144.408 21.6109ZM144.408 21.6109L143.041 17.151V0.389116H148.359V21.6109H144.408Z" fill="black"/>
+            <path d="M152.103 21.6109V0.389116H157.421V21.6109H152.103Z" fill="black"/>
+            <path d="M159.61 21.6109L167.78 0.389116H172.919L181 21.6109H175.445L169.354 3.77143H171.286L165.047 21.6109H159.61Z" fill="black"/>
+            </svg>
+            <p>Sign up for texts to be notified about our
+              best offers on the perfect gifts.</p>
+        </div>
+        <div class="footer-bottom-list">
+          <h1>All Products</h1>
+          <p>Phones</p>
+          <p>Watch</p>
+          <p>Tablets</p>
+          <p>Laptops</p>
+        </div>
+        <div class="footer-bottom-list">
+          <h1>Company</h1>
+          <p>About</p>
+          <p>Support</p>
+        </div>
+        <div class="footer-bottom-list">
+          <h1>Support</h1>
+          <p>Style Guide</p>
+          <p>Licensing</p>
+          <p>Change Log</p>
+          <p>Contact</p>
+        </div>
+        <div class="footer-bottom-list">
+          <h1>Follow Us</h1>
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>LinkedIn</p>
+          <p>Youtube</p>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
